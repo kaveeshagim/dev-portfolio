@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Personal Porfolio using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio build using React.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![](./screenshot.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Youtube Tutorial: [React Project Tutorial: Build a Responsive Portfolio Website w/ Advanced Animations](https://youtu.be/hYv6BM2fWd8?si=9dT_nVa4RSxXWQRc)
+- Live Site URL: [https://kaveeshagim.github.io/qr-code-component/](https://kaveeshagim.github.io/qr-code-component/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## My process
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built with :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- CSS custom properties
+- React Bootstrap
+- Mobile-first workflow
 
-### `npm run eject`
+### List of commands :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+``` npx create-react-app name ``` - to create the react app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``` npm start ``` -  to get the react project running
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+``` npm install react-bootstrap bootstrap ``` - to install react-bootstrap library
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+``` npm install animate.css --save ```
 
-## Learn More
+``` npm i react-on-screen ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+``` npm i react-multi-carousel ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+``` npm install express cors nodemailer ```
 
-### Code Splitting
+``` node server.js ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+``` npm i react-bootstrap-icons --save ```
 
-### Analyzing the Bundle Size
+``` npm install react-router-hash-link ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### What I learned
 
-### Making a Progressive Web App
+Through this project i learned how to use javascript classes and constructors. I also learned a new function named reduce() which is basically used to get the sum of all the values in a list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To see how you can add code snippets, see below:
 
-### Advanced Configuration
+```js
+if(this.itemList.length > 0){
+    total = this.itemList.reduce(function(acc,curr){
+    console.log(`total is ${acc} and the current value is ${curr.amount}`);
+    acc += curr.amount;
+    return acc;
+    },0)
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I want to further make improvements in the ui and maybe integrate a database to store the data.
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github - [https://github.com/kaveeshagim](https://github.com/kaveeshagim)
+- Instagram - [@codingwcn](https://www.instagram.com/codingwcn)
+
